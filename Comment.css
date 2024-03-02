@@ -1,0 +1,49 @@
+body{
+    height: 200vh;
+    background-color: rgb(58, 58, 58);
+    /* background: linear-gradient(#909090c0, #000000c0) */
+}
+
+.active{
+    width: 100px;
+    margin-top: 7px;
+    padding:5px 7px;
+    background-color: rgba(0, 0, 0, 0.119);
+
+    border-radius: 30px;
+    /* border: 0.5px solid; */
+}
+.second-col h4{
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.272);
+    /* margin-left: 160px; */
+}
+.question{
+    /* margin-left: 160px; */
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f3f3;
+
+    border-radius: 10px;
+
+}
+.para{
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.like{
+    width: 100px;
+    font-size: 13px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: #fff;
+} 
+.like span{
+    font-size: 10px;
+}
+
+.heading{
+    margin-left: 100px;
+}

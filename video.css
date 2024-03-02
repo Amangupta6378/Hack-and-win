@@ -1,0 +1,86 @@
+body{
+    height: 200vh;
+    background-color: rgb(30, 30, 30);
+}
+
+.head{
+    font-size: 10px;
+    cursor: pointer;
+    /* height: 200vh; */
+}
+.first-col{
+    height: 100%;
+    width: 20%;
+    font-size: 15px;
+    padding: 20px 40px;
+    position: fixed;
+
+}
+.first-col span{
+     padding-left: 10px;
+}
+a{
+    width: 100px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.first-col div{
+    width: 150px;
+    /* font-weight: bold; */
+    margin-top: 7px;
+    padding:5px 7px;
+    border-radius: 30px;
+
+    /* border: 0.5px solid; */
+}
+.first-col div:hover{
+    width: 150px;
+    margin-top: 7px;
+    padding:5px 7px;
+    border-radius: 30px;
+    /* border: 0.5px solid; */
+    background-color: rgba(0, 0, 0, 0.119);
+}
+.active{
+    width: 100px;
+    margin-top: 7px;
+    padding:5px 7px;
+    background-color: rgba(0, 0, 0, 0.119);
+
+    border-radius: 30px;
+    /* border: 0.5px solid; */
+}
+.second-col h4{
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.272);
+    margin-left: 160px;
+}
+.question{
+    margin-left: 160px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f3f3;
+
+    border-radius: 10px;
+
+}
+.para{
+    font-size: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.like{
+    width: 150px;
+    font-size: 18px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    /* border: 0.5px solid;  */
+    background-color: #fff;
+} 
+.like span{
+    font-size: 10px;
+}

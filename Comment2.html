@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Comment.css" />
+
+    <title>DocMate</title>
+  </head>
+  <body>
+    <div class="p-3">
+      <div class="text-white">Join The Discussion</div>
+      <textarea
+        name=""
+        id=""
+        cols="80"
+        rows="2"
+        placeholder="Write here.."
+      ></textarea>
+    </div>
+    <div class="container-fluid head">
+      <div class="row">
+        <div class="col-sm-10 offset-1 mt-2 second-col">
+          <div class="question">
+            <div class="profile fw-bold">
+              <i class="fa-solid fa-circle-user" style="color: #74c0fc"></i>
+              <span>amangupta0603</span>
+            </div>
+            <div class="para mt-2">
+              Symptoms of depression/stress include persistent sadness, loss of
+              interest, fatigue, changes in appetite, and difficulty
+              concentrating. They differ from normal feelings by their duration
+              and intensity. Seeking professional help for therapy and/or
+              medication can aid in recovery.
+            </div>
+            <div class="expression mt-2">
+              <div class="like">
+                <i class="fa-regular fa-thumbs-up" style="color: #000000"></i>
+                <i
+                  class="fa-regular fa-comment ms-3"
+                  style="color: #000000"
+                ></i>
+                <i class="fa-solid fa-share ms-3" style="color: #000000"></i>
+              </div>
+            </div>
+          </div>
+          <div class="question mt-3">
+            <div class="profile fw-bold">
+              <i class="fa-solid fa-circle-user" style="color: #74c0fc"></i>
+              <span>sourav_singh8372</span>
+            </div>
+            <div class="para mt-2">
+              I can relate to feeling depressed sometimes. It's tough, but
+              talking to friends and family helps. Remember, you're not alone.
+              Hang in there, and take it one day at a time
+            </div>
+            <div class="expression mt-2">
+              <div class="like">
+                <i class="fa-regular fa-thumbs-up" style="color: #000000"></i>
+                <i
+                  class="fa-regular fa-comment ms-3"
+                  style="color: #000000"
+                ></i>
+                <i class="fa-solid fa-share ms-3" style="color: #000000"></i>
+              </div>
+            </div>
+          </div>
+          <div class="question mt-3">
+            <div class="profile fw-bold">
+              <i class="fa-solid fa-circle-user" style="color: #74c0fc"></i>
+              <span>shakshi_kumari63728</span>
+            </div>
+            <div class="para mt-2">
+              I've struggled with depression too. Finding hobbies I enjoy and
+              talking to a therapist has made a big difference. Don't hesitate
+              to reach out for help if you need it. You're stronger than you
+              think.
+            </div>
+            <div class="expression mt-2">
+              <div class="like">
+                <i class="fa-regular fa-thumbs-up" style="color: #000000"></i>
+                <i
+                  class="fa-regular fa-comment ms-3"
+                  style="color: #000000"
+                ></i>
+                <i class="fa-solid fa-share ms-3" style="color: #000000"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="question mt-3">
+            <div class="profile fw-bold">
+              <i class="fa-solid fa-circle-user" style="color: #74c0fc"></i>
+              <span>pooja_tripahti938</span>
+            </div>
+            <div class="para mt-2">
+              Dealing with depression can be really challenging. I've found that
+              practicing mindfulness and self-care helps me manage it better.
+              Take care of yourself, and don't be afraid to ask for support
+              when you need it
+            </div>
+            <div class="expression mt-2">
+              <div class="like">
+                <i class="fa-regular fa-thumbs-up" style="color: #000000"></i>
+                <i
+                  class="fa-regular fa-comment ms-3"
+                  style="color: #000000"
+                ></i>
+                <i class="fa-solid fa-share ms-3" style="color: #000000"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // JavaScript to handle like button click
+      document.addEventListener("DOMContentLoaded", function () {
+        const likeButtons = document.querySelectorAll(
+          ".like i.fa-regular.fa-thumbs-up"
+        );
+        likeButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            // Toggle class to change color to blue
+            if (button.classList.contains("text-primary")) {
+              button.classList.remove("text-primary");
+            } else {
+              button.classList.add("text-primary");
+            }
+          });
+        });
+      });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
